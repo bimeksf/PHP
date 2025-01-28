@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  height: 100vh;
+  height: 100dvh;
+  width: min(65ch, 100% - 4rem);
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+form {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 1em;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px rgb(20, 181, 230);
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  transition: all 0.1s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+  border: 2px solid rgb(20, 181, 230);
+}
+
+select {
+  padding: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+.result {
+  padding: 1em;
+  font-size: 2em;
+}
